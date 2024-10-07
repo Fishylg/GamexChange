@@ -1,0 +1,77 @@
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #1A1220; /* Define a cor de fundo da página */
+    color: #fff; /* Define a cor do texto como branco */
+    font-family: 'ABeeZee', sans-serif; /* Define a fonte usada na página */
+}
+
+.header {
+    display: flex; /* Usa flexbox para organizar os itens no cabeçalho */
+    justify-content: space-between; /* Espaça os itens de forma igual entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 20px 40px; /* Adiciona espaço interno (padding) em torno do cabeçalho */
+    background-color: #0C0512; /* Define a cor de fundo do cabeçalho */
+}
+
+.header nav a {
+    margin: 0 20px; /* Adiciona margens horizontais aos links de navegação */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #fff; /* Define a cor dos links como branco */
+    font-size: 18px; /* Define o tamanho da fonte dos links */
+}
+
+.login-btn {
+    background-color: #6a00ff; /* Define a cor de fundo do botão de login */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    text-decoration: none; /* Remove o sublinhado do texto do botão */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    font-size: 18px; /* Define o tamanho da fonte do botão */
+}
+
+.search-bar {
+    display: flex; /* Usa flexbox para organizar os itens da barra de pesquisa */
+    justify-content: center; /* Centraliza a barra de pesquisa horizontalmente */
+    padding: 20px 0; /* Adiciona espaço acima e abaixo da barra de pesquisa */
+}
+
+.search-bar input {
+    width: 50%; /* Define a largura do campo de entrada como 50% do contêiner pai */
+    padding: 10px; /* Adiciona espaço interno ao campo de entrada */
+    border-radius: 20px; /* Arredonda os cantos do campo de entrada */
+    border: none; /* Remove a borda padrão do campo de entrada */
+    font-size: 16px; /* Define o tamanho da fonte do campo de entrada */
+}
+
+.main-content {
+    display: flex; /* Usa flexbox para alinhar itens no conteúdo principal */
+    justify-content: flex-start; /* Alinha os itens ao início do contêiner */
+    padding: 20px; /* Adiciona espaço interno ao conteúdo principal */
+    position: relative; /* Define a posição como relativa para possíveis ajustes de layout */
+}
+
+.main-content img {
+    border-radius: 20px; /* Arredonda os cantos das imagens do conteúdo principal */
+    width: 70%; /* Define a largura das imagens do conteúdo principal como 70% do contêiner */
+}
+
+.sidebar {
+    width: 200px; /* Define a largura da sidebar */
+    margin-left: 0; /* Remove a margem à esquerda para colar com o conteúdo principal */
+}
+
+.sidebar .game {
+    display: flex; /* Usa flexbox para alinhar os itens da lista de jogos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo de cada item da lista de jogos */
+}
+
+.sidebar .game img {
+    width: 50px; /* Define a largura das imagens dos jogos */
+    height: 50px; /* Define a altura das imagens dos jogos */
+    border-radius: 10px; /* Arredonda os cantos das imagens dos jogos */
+    margin-right: 10px; /* Adiciona espaço à direita da imagem do jogo */
+}
+.game{
+    height: 50px;
+}
