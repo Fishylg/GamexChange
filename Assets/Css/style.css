@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: #0C0512;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    font-size: 27px;
+}
+.menu li{
+    list-style: none;
+    margin: 30px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li span{
+    transition: all 0.3s;
+}
+.menu li:hover{
+    transition: all 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+.login-btn{
+    background-color: #9400d3;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login-btn:hover {
+    background-color: #A020F0;
+}
+body{
+    background-color: #1A1220;
+    color: whitesmoke;
+}
